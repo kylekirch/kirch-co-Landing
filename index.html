@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  Website Version: 0.0.4
+  Website Version: 0.0.5
   <head>
     <title>The New & Improved Kirchgessner Website!!</title>
     <style>
         .center-content{
             text-align: center;
         }
+
+        #navigation {
+          color: white;
+        font-family: Sans-Serif;
+        border: 2px solid black;
+        background-origin: padding-box;
+        background-color: rgb(129, 118, 204);
+        height: auto;
+        list-style: none;
+        margin: 0;
+        padding: 0px;
+        position: relative;
+      }
+        #navigation li a {
+        color: whitesmoke;
+        display: block;
+        border: 1px solid black;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px;
+        text-decoration: none;
+      }
+        #navigation li a:hover {
+        background-color: darkslateblue;
+        color: #ffffff;
+      }
+        #navigation li a:active {
+        background: slateblue;
+        color: white;
+      }
+       #navigation li a.current{
+       
+       color: slateblue;
+       background:darkslateblue;
+      }
+        
     </style>
   </head>
   <body>
-    <div id = "In progress column" style = "margin: 0 50px;display:flex; flex-direction:column; text-align: right;">
-      <h3 style = "color: green; text-decoration:underline; ">In Progress:</h3>
     
-     <div id = "links">
-          <a style = "display: block; margin: 10px o;" href = "https://kirchgessner.co/wiki">Wiki (Current Project)</a>
-          <a style = "display: block; margin: 10px o;" href = "https://kyle.kirchgessner.co">Kyle</a>
-          <a style = "display: block; margin: 10px o;" href = "https://blake.kirchgessner.co">Blake</a>
-          <a style = "display: block; margin: 10px o;" href = "https://leah.kirchgessner.co">Leah</a>
-        </div>
+    <div id="submenu">
+      <h3 style="color: darkslateblue;border: 2px solid slateblue; padding: 10px; border-radius:10px; background-color: rgb(192, 184, 243);">Kirchgessner Dot Co</h3>
+      <h5 style="margin: 0px 10px;">Menu</h5>
+      
+      <ul id="navigation">
+     
+          <li><a href = "https://kirchgessner.co" class = "current">Home</a></li>
+          <li><a href = "https://kirchgessner.co/wiki">Wiki (Current Project)</a></li>
+          <li><a href = "https://kyle.kirchgessner.co">Kyle</a></li>
+          <li><a href = "https://blake.kirchgessner.co">Blake</a></li>
+          <li><a href = "https://leah.kirchgessner.co">Leah</a></li>
+      </ul>  
     </div>
     <main>
         <div class="center-content">
             <img src="https://web.archive.org/web/20051219144149im_/http://www.kirchgessner.com/_graphics/kirchdotcom_wh.jpg">
             <h1 style="color: darkslateblue;">Under Construction</h1>  
-            
-              <img src="https://img.forconstructionpros.com/files/base/acbm/fcp/image/2021/04/workers_examining_work.606ddbf099d73.png?auto=format%2Ccompress&dpr=2&fit=crop&h=288&q=70&rect=0%2C99%2C1920%2C1080&w=512"; width="75%"; height="75%"; style="border: 100px; border-color: darkslateblue;">
+
+            <img src="https://img.forconstructionpros.com/files/base/acbm/fcp/image/2021/04/workers_examining_work.606ddbf099d73.png?auto=format%2Ccompress&dpr=2&fit=crop&h=288&q=70&rect=0%2C99%2C1920%2C1080&w=512"; width="75%"; height="75%"; style="border: 100px; border-color: darkslateblue;">
             <h3 style="color: darkslateblue; text-decoration: underline;">Expected Completion Date: Summer 2023</h3>
         </div>
     </main>
